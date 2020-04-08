@@ -1,0 +1,23 @@
+{
+  "name": "environmental-parameters-recorder",
+  "version": "0.0.1",
+  "description": "Project that aims to monitor the environmental parameters of a given place.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelApicella95/Environmental-parameters-recorder.git"
+  },
+  "keywords": [
+    "monitor",
+    "environmental-values"
+  ],
+  "author": "Sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelApicella95/Environmental-parameters-recorder/issues"
+  },
+  "homepage": "https://github.com/SamuelApicella95/Environmental-parameters-recorder#readme"
+}
