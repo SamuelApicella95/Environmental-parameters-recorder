@@ -12,13 +12,14 @@ let statusRecTH = false;
 
 // Input: null
 // Output: this function return a json object,
-// the json object represents a sample of
-// temperature and humidity
+// the json object represents a new instant sample
+// of temperature and humidity
 // {
 //   temperature:  ...,
 //   humidity:     ...,
 // }
 // in other case (such as error) return 500
+
 app.get('/temphumLive', (req, res) => {
   let t_h = spawn('python3', ['dht_readData.py']);
   let th, t, h;
