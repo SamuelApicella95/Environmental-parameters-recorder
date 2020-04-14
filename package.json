@@ -4,7 +4,7 @@
   "description": "Project that aims to monitor the environmental parameters of a given place.",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js"
+    "eprServer": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/SamuelApicella95/Environmental-parameters-recorder/issues"
   },
-  "homepage": "https://github.com/SamuelApicella95/Environmental-parameters-recorder#readme"
+  "homepage": "https://github.com/SamuelApicella95/Environmental-parameters-recorder#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.3"
+  }
 }
